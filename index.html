@@ -8,19 +8,32 @@
     <script src="index.js"></script>
 </head>
 <body>
-    <h1>Metric/Imperial Unit Conversion</h1>
+    <div class = "center-box">
+        <h1>Metric/Imperial Unit Conversion</h1>
 
-    <div>
-        <h1 id = "input-el"></h1>
-        <button id = "convert-btn">Convert</button>
-    </div>
+        
+            <input id = "input-el" type="number" placeholder="0"  >
+            <button id = "convert-btn">Convert</button>
+        
 
 
-    <div> 
-        <div class="card">
-            <p>Length (Meter/Feet)</p>
+        <div> 
+            <div class = "card">
+                <p class="heading">Length (Meter/Feet)</p>
+                <p id = length-output class="result">100 </p>
+            </div>
+
+            <div class = "card">
+                <p class="heading">Volume </p>
+                <p id = length-output class="result">100 </p>
+            </div>
+
+            <div class = "card">
+                <p class="heading">Mass </p>
+                <p id = length-output class="result">100 </p>
+            </div>
+
         </div>
-
     </div>
 </body>
 </html>
