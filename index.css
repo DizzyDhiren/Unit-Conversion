@@ -11,7 +11,7 @@ body{
 }
 
 .center-box{
-    background-color: rgb(162, 115, 206);
+    background-color: rgb(104, 66, 255);
     color: white;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@ body{
 }
 
 input{
-    background-color:  rgb(162, 115, 206);
+    background-color:  rgb(104, 66, 255);
     border: 2px solid rgba(255, 242, 242, 0.661);
     width: 20%;
     height: 80px;
@@ -32,10 +32,30 @@ input{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#convert-btn{
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    margin-top: 20px;
+    border-radius: 8px;
+
+    cursor: pointer;
+    }
+
 .card{
     padding: 15px;
     border: 1px  ;
     border-radius: 10px;
     background-color: rgba(147, 147, 147, 0.8);
     margin-top: 20px;
+
+    text-align: center;
+
+}
+
+.heading{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
 }
